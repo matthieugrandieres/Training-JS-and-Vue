@@ -1,0 +1,32 @@
+body{
+    background-color: #1a1d21;
+}
+
+section{
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+}
+
+input{
+    background-color: #222529 !important;
+    color: white !important;
+    width: 300px !important;
+}
+
+i{
+    float: right;
+    margin: -30px 10px 0px 0px;
+    color: white;
+    cursor: pointer;
+}
