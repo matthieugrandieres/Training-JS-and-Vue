@@ -33,7 +33,7 @@
                         <span class="price">{{ product.price }}€</span>
                         <div 
                         class="quantity-area"
-                        v-if="product.active && product.quantity > 0">
+                        v-if="product.active">
                             <button @click.stop="product.quantity--" :disabled="product.quantity < 1">-</button>
                             <span class="quantity">{{product.quantity}}</span>
                             <button @click.stop="product.quantity++">+</button>
